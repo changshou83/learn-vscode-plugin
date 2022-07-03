@@ -7,7 +7,7 @@
     "vscode": "^1.68.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
   "activationEvents": [
     "onCommand:helloworld.helloWorld",
@@ -23,6 +23,12 @@
       {
         "command": "helloworld.currentTime",
         "title": "Get CurrentTime"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "adv",
+        "path": "./snippets/static.json"
       }
     ],
     "languages": [

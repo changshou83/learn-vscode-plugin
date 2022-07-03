@@ -1,0 +1,18 @@
+{
+  "basic metadata": {
+    "prefix": ["meta"],
+    "body": [
+      "---",
+      "title: ",
+      "from: ",
+      "chapter: ",
+      "showCharacterAvatar: ",
+      "characters: ",
+      "  - name: ",
+      "  - actor: ",
+      "  - avatar: ",
+      "---"
+    ],
+    "description": "basic matedata"
+  }
+}
