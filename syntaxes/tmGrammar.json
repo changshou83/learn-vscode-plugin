@@ -1,0 +1,25 @@
+{
+  "scopeName": "source.adv",
+  "patterns": [{ "include": "#keyword" },{ "include": "#expression" }],
+  "repository": {
+      "expression": {
+          "patterns": [{ "include": "#letter" }, { "include": "#parent-expression" }]
+      },
+      "letter": {
+          "match": "a|b|c",
+          "name": "keyword.letter"
+      },
+      "parent-expression": {
+          "begin": "\\(",
+          "end": "\\)",
+          "beginCaptures": {
+              "0": { "name": "punctuation.parent.open" }
+          },
+          "endCaptures": {
+              "0": { "name": "punctuation.parent.close" }
+          },
+          "name": "expression.group",
+          "patterns": [{ "include": "#expression" }]
+      }
+  }
+}

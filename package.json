@@ -24,6 +24,19 @@
         "command": "helloworld.currentTime",
         "title": "Get CurrentTime"
       }
+    ],
+    "languages": [
+      {
+        "id": "adv",
+        "extensions": [".adv.md"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "adv",
+        "scopeName": "source.adv",
+        "path": "./syntaxes/tmGrammar.json"
+      }
     ]
   },
   "scripts": {
